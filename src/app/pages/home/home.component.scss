@@ -1,0 +1,27 @@
+.btn-create {
+    position: absolute;
+    right: 25px;
+    top: 7px;
+}
+
+.card-projects {
+    background: #673ab7;
+    color: white;
+    margin-top: 5px;
+}
+h5 {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 235px;
+}
+.description-container {
+    font-weight: 100;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+}
