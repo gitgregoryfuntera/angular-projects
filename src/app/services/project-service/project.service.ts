@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProjectService {
   MOCKS = [
-    {name: 'sample', description: 'lorem ipsum', projectMembers: [{email: 'john@doe.com'}]}
+    {name: 'Sample Project Name', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin libero quis bibendum dapibus. Maecenas quis velit ut diam gravida varius sit amet in nunc. ', projectMembers: [{email: 'john@doe.com'}]}
   ];
   constructor() { }
 
